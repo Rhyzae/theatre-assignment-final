@@ -1,0 +1,162 @@
+* {
+    /* border: 1px solid red; */
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(Roboto\Roboto-Black.ttf);
+}
+
+body {
+    margin: 0%;
+}
+
+.navbar-container {
+    font-family: 'Roboto';
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 0px;
+}
+
+.navbar-brand{
+    font-size: xx-large;
+    margin-left: 100px;
+    color: white;
+    height: 40px;
+}
+
+.navbar-text {
+    margin-right: 400px;
+    width: 50%; 
+    justify-content: space-around;   
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    color: white;
+}
+
+.nav-item {
+    color: white;
+}
+
+a:hover {
+    color: aquamarine
+}
+
+.nav-link {
+    text-decoration: none;    
+}
+
+.background-image {
+    z-index: -1;
+    position: absolute;
+    margin-top: -400px
+}
+
+.head-text {
+    font-size: 10em;
+    margin-top: 400px;
+    text-align: center;
+    height: 500px;
+    color: white;
+    font-weight: 100;
+}
+
+.text-box {
+    border: 1px solid gray;
+    background-color: rgb(235, 235, 235);
+    font-weight: 600;
+    width: 60%;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box-date {
+    margin-left: 50px;
+}
+
+.show-head {
+    font-size: xx-large;
+}
+
+.show-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.show {
+    border-top: 1px solid gray;
+    justify-content: center;
+    width: 60%;
+    padding-top: 3%;
+    margin-bottom: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+.read-more {
+    font-family: 'Times New Roman', Times, serif;
+    height: 60px;
+    width: 150px;
+    margin-right: 100px;
+    background-color: orange;
+    color: white;
+    font-size: x-large;
+}
+
+.head-img {
+    margin-left: 100px;
+}
+
+.footer-container {
+    font-family: 'Roboto';
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 500px;
+    align-items: center;
+}
+
+.foot-head-text {
+    font-size: 3em;
+}
+
+.icon {
+    color: orange;
+}
+
+
+.background-image {
+    width: 100%
+}
+
+
+.map-image {
+    width: 20%;
+    height: 250px
+}
+
+.foot {
+    padding: 5%;
+}
+
+.foot-text {
+    padding: 5%;    
+}
